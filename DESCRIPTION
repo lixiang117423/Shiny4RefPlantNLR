@@ -1,0 +1,40 @@
+Package: shiny4RefPlantNLR
+Title: Identity NLR Proteins with RefPlantNLR
+Version: 0.0.0.9000
+Authors@R: person('Xiang', 'LI', email = 'lixiang117423@foxmail.com', role = c('cre', 'aut'))
+Description: An R shiny for RefPlantNLR. The shiny app can alllow user 
+  to search NLR sequences from RefPlantNLR or Blast their sequences. Then these 
+  sequences can be aligned by ClustalO. After these steps, the user can construct
+  their phylogenetic tree and Visualize.
+License: MIT + file LICENSE
+Imports: 
+    attempt,
+    config (>= 0.3.1),
+    data.table,
+    dplyr,
+    DT,
+    ggmsa,
+    ggtree,
+    glue,
+    golem,
+    htmltools,
+    knitr,
+    magrittr,
+    markdown,
+    processx,
+    reshape2,
+    shiny,
+    shinydashboard,
+    shinyWidgets,
+    stringr,
+    treeio
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+URL: https://github.com/lixiang117423/Shiny4RefPlantNLR
+BugReports: https://github.com/lixiang117423/Shiny4RefPlantNLR/issues
+Depends: 
+    R (>= 2.10),
+VignetteBuilder: knitr
+Suggests: 
+    rmarkdown
