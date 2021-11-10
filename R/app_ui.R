@@ -6,12 +6,12 @@ app_ui <- function(){
     golem_add_external_resources(),
     tagList(
       tags$style(
-        "h3 {
+        "h1 {
         color: #00b76d;
         }"
       ),
       nav_(
-        h3("shiny4RefPlantNLR"),
+        h1("shiny4RefPlantNLR"),
         c(
           "home" = "Home",
           "download" = "Download",

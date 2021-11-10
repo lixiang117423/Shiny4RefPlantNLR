@@ -31,7 +31,7 @@ nav_ <- function(name, x){
         )
       )
     )
-  ) %>% tags$div(class = "plpl", style = "font-size:18px")
+  ) %>% tags$div(class = "plpl", style = "font-size:20px")
 }
 
 
