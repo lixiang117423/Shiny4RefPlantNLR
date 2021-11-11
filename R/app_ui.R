@@ -27,7 +27,7 @@ app_ui <- function(){
       tags$div(
         class = "container",
         #style = "width: 100vw;height:100vh;",
-        style = "margin-right: 0em",
+        #style = "margin-right: 0em",
         fluidRow(
           id = "home", mod_home_ui("home")
         ) %>% tagAppendAttributes(
